@@ -73,7 +73,7 @@ hr {
     margin: 0 auto;
     gap: 20px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    
     scrollbar-gutter: stable;
     scroll-behavior: smooth;
     max-width: 980px;
@@ -153,6 +153,29 @@ hr {
     font-weight: 700;
     text-align: center;
     margin-top: 20px; 
+}
+
+.paragraph-width {
+    max-width: 350px;
+}
+
+.learn-more-button {
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--top);
+    border: 2px solid var(--top);
+    width: fit-content;
+    padding: 10px;
+}
+
+.learn-more-button:hover {
+    background-color: var(--top);
+    color: white;
+}
+
+.form-style {
+    width: fit-content;
+    
 }
 
 @media (max-width: 600px) {
